@@ -9,7 +9,7 @@ function createPlanePolygon(plane, size) {
   var basis = findBasis(plane)
   var poly = [[0,0,0], [0,0,0], [0,0,0], [0,0,0]]
   for(var i=0; i<3; ++i) {
-    var o = basis[2][i] * plane[3]
+    var o = -basis[2][i] * plane[3]
     poly[0][i] = o - size * basis[0][i] - size * basis[1][i]
     poly[1][i] = o + size * basis[0][i] - size * basis[1][i]
     poly[2][i] = o + size * basis[0][i] + size * basis[1][i]
