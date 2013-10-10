@@ -1,0 +1,27 @@
+{
+  "name": "plane-to-polygon",
+  "version": "0.0.0",
+  "description": "Converts a plane to a polygon",
+  "main": "plane-poly.js",
+  "dependencies": {
+    "find-basis-3d": "~0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/plane-to-polygon.git"
+  },
+  "keywords": [
+    "plane",
+    "polygon",
+    "projection"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/plane-to-polygon/issues"
+  }
+}
